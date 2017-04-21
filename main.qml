@@ -20,11 +20,11 @@ Window {
         height: Math.min(50, altitude)
         color: "#AA1818"
         x: parent.width / 2 - width / 2
-        y: parent.height / 2 - height / 2 - altitude
+        y: parent.height / 3 * 2 - altitude
 
         function update() {
             if (altitude <= 20) {
-                force = 25
+                force = 30
                 velocity = 0
             } else {
                 force = 0
